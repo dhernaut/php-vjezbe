@@ -1,4 +1,6 @@
 <?php
+// https://github.com/dhernaut/php-vjezbe/
+
 $title = "Da Vincijev kod";
 $text  = $title . " je kriminalistički triler američkog pisca Dana Browna.";
 $link  = "https://hr.wikipedia.org/Da_Vincijev_kod"; // točan URL sa slajda
