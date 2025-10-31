@@ -2,7 +2,7 @@
 mb_internal_encoding('UTF-8');
 session_start();
 
-$naslov = "🪨✂️📄 Kamen, škare, papir";
+$naslov = "🪨Kamen, ✂️škare, 📄papir";
 $autor  = "Denis Hernaut";
 
 $opcije = [
@@ -23,9 +23,9 @@ if (isset($_POST['reset']) && $_POST['reset'] === '1') {
 }
 
 function titleHR($s){ return mb_convert_case($s, MB_CASE_TITLE, 'UTF-8'); }
-// Igrač bira
+// Igrač bira prvi
 $igrac = (isset($_GET['odabir']) && array_key_exists($_GET['odabir'], $opcije)) ? $_GET['odabir'] : null;
-// Računalo bira samo kad igrač odabere
+// Računalo samo kad igrač odabere
 $racunalo = $igrac ? array_rand($opcije) : null;
 
 $rezultat = "";
