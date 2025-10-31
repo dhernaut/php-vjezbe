@@ -1,6 +1,6 @@
 <?php
 // vjezba-1d.php — forma + slika (nadogradnja na vjezba-1c.php)
-// Osnovni PHP pojmovi: varijable, $_GET, echo, HTML, jednostavan CSS (bez sessiona i uploada)
+// Osnovni PHP pojmovi: varijable, $_GET, echo, HTML, jednostavan CSS 
 
 // Polazne vrijednosti (preuzeto iz tvoje 1c strukture)
 $naslov      = "Moj prvi PHP dokument — vježba-1d";
